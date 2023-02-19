@@ -1,17 +1,14 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom"; 
 import { createGlobalStyle } from "styled-components";
+import ImageContainer from "./pages/ImageContainer/Image";
 
 function App() {
   return (
     <BrowserRouter>
       <GlobalStyle />
       <Routes>
-        <Route>
-          <div className="App">
-            Hello world!
-          </div>
-        </Route>
+        <Route path="/" element={<ImageContainer />}/>
       </Routes>
     </BrowserRouter>
   );
