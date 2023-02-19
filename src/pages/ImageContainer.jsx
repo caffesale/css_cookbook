@@ -7,4 +7,5 @@ const ImageContainer = () => {
   )
 }
 
-export default ImageContainer
+export default ImageContainer;
+
