@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom"; 
 import { createGlobalStyle } from "styled-components";
 import ImageContainer from "./pages/ImageContainer/Image";
+import SlideWithTitle from "./pages/slideWithTitle/SlideWithTitle";
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       <GlobalStyle />
       <Routes>
         <Route path="/" element={<ImageContainer />}/>
+        <Route path="/slide_with_title" element={<SlideWithTitle />}/>
+
       </Routes>
     </BrowserRouter>
   );
