@@ -16,6 +16,7 @@ export default SlideWithTitle
 
 const Container = styled.figure`
   display: grid;
+  place-items: center;
   max-width: 70rem;
   min-height: 18.75rem;
 `
